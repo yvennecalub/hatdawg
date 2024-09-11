@@ -9,7 +9,7 @@ var cf = {
     ang: 0,
     dis: 0,
     gros: 40,
-    r: 255, g: 3, b: 3
+    r: 267, g: 5, b: 5
 }
 
 function main(){
@@ -29,9 +29,9 @@ function main(){
 function update(i){
     let cont = true;
 
-    cf.gros-=0.04;
+    cf.gros-=0.06;
     cf.ang+=4;
-    cf.dis+=0.2;
+    cf.dis+=0.4;
     
     rgb_r();
     rgb_g();
